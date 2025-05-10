@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable, input } from '@angular/core';
 
 export interface InputItem {
@@ -23,20 +24,49 @@ export interface ServiceOutput {
   }[]
 }
 
+export interface TicketListOffering {
+  operator: string,
+  ticket_offerings: TicketVariant[]
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class TicketsService {
 
-  constructor() { }
+  constructor(private httpClient: HttpClient) {
+  }
 
   inputValues: InputItem[] | undefined;
+  public allTickets: any | undefined;
 
   setInput(inputs: InputItem[]) {
-    this.inputValues = inputs;
+    this.inputValues = [
+      {
+        operator: "Go North East",
+        startStop: "zone_central",
+        endStop: "zone_central",
+        age: 20,
+        travel_today: false
+      }
+    ];
+
+    this.httpClient.get<TicketListOffering[]>("/ticket_list.json").subscribe(response => {
+      this.allTickets = response.map(offering => {
+        return {
+          title: offering.operator,
+          variants: offering.ticket_offerings
+        }
+      });
+    })
   }
 
   getOutput(): ServiceOutput {
+    setTimeout(() => {
+      console.log(<ServiceOutput>this.allTickets);
+    }, 100)
+    
+
     return {
       single: [
         {

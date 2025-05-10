@@ -9,11 +9,12 @@ import { ServiceOutput, TicketsService, TicketVariant } from '../tickets.service
 })
 export class TicketListComponent {
 
-  constructor (private ticketsService: TicketsService) {}
+  constructor (public ticketsService: TicketsService) {}
 
   ticketList: ServiceOutput | undefined;
 
   ngOnInit() {
+    this.ticketsService.setInput([]);
     this.ticketList = this.ticketsService.getOutput();
   }
 

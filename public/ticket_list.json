@@ -1,0 +1,302 @@
+[
+    {
+        "operator": "Go North East",
+        "ticket_offerings": [
+            {
+                "name": "Sunderland central",
+                "geo_from": "zone_central",
+                "geo_to": "zone_central",
+                "price": 5,
+                "link": "",
+                "duration": "1 Day",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "Sunderland central",
+                "geo_from": "zone_central",
+                "geo_to": "zone_central",
+                "price": 16.50,
+                "link": "",
+                "duration": "7 Day",
+                "day_equivalent": 7
+            },
+
+            {
+                "name": "Sunderland central",
+                "geo_from": "zone_central",
+                "geo_to": "zone_central",
+                "price": 22.00,
+                "link": "",
+                "duration": "5 Day",
+                "day_equivalent": 5
+            },
+
+            {
+                "name": "Sunderland central",
+                "geo_from": "zone_central",
+                "geo_to": "zone_central",
+                "price": 62.00,
+                "link": "",
+                "duration": "28 Day",
+                "day_equivalent": 28
+            },
+
+            {
+                "name": "City of Sunderland",
+                "geo_from": "zone_city",
+                "geo_to": "zone_city",
+                "price": 5.90,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "City of Sunderland",
+                "geo_from": "zone_city",
+                "geo_to": "zone_city",
+                "price": 23.80,
+                "link": "",
+                "duration": "7",
+                "day_equivalent": 7
+            },
+
+            {
+                "name": "City of Sunderland",
+                "geo_from": "zone_city",
+                "geo_to": "zone_city",
+                "price": 28.50,
+                "link": "",
+                "duration": "5",
+                "day_equivalent": 5
+            },
+
+            {
+                "name": "City of Sunderland",
+                "geo_from": "zone_city",
+                "geo_to": "zone_city",
+                "price": 82.60,
+                "link": "",
+                "duration": "28",
+                "day_equivalent": 28
+            },
+
+            {
+                "name": "Tyne and Wear Zone",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 6.00,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "Tyne and Wear Zone",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 30.00,
+                "link": "",
+                "duration": "7",
+                "day_equivalent": 7
+            },
+
+            {
+                "name": "Tyne and Wear Zone",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 29.50,
+                "link": "",
+                "duration": "5",
+                "day_equivalent": 5
+            },
+
+            {
+                "name": "Tyne and Wear Zone",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 94.00,
+                "link": "",
+                "duration": "28",
+                "day_equivalent": 28
+            },
+
+            {
+                "name": "All Zone",
+                "geo_from": "zone_all",
+                "geo_to": "zone_all",
+                "price": 6.80,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "All Zone",
+                "geo_from": "zone_all",
+                "geo_to": "zone_all",
+                "price": 37.50,
+                "link": "",
+                "duration": "7",
+                "day_equivalent": 7
+            },
+
+            {
+                "name": "Age Maximum",
+                "geo_from": "zone_all",
+                "geo_to": "zone_all",
+                "price": 6.10,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "Age Maximum",
+                "geo_from": "zone_all",
+                "geo_to": "zone_all",
+                "price": 24.40,
+                "link": "",
+                "duration": "7",
+                "day_equivalent": 7
+            },
+
+            {
+                "name": "Age Maximum",
+                "geo_from": "zone_all",
+                "geo_to": "zone_all",
+                "price": 23.90,
+                "link": "",
+                "duration": "5",
+                "day_equivalent": 5
+            },
+
+            {
+                "name": "Age Maximum",
+                "geo_from": "zone_all",
+                "geo_to": "zone_all",
+                "price": 87.80,
+                "link": "",
+                "duration": "28",
+                "day_equivalent": 28
+            }
+
+        ]
+    },
+
+    {
+     "operator": "Stagecoach",
+        "ticket_offerings": [
+            {
+                "name": "Sunderland",
+                "geo_from": "zone_sunderland",
+                "geo_to": "zone_sunderland",
+                "price": 4.70,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "Sunderland",
+                "geo_from": "zone_sunderland",
+                "geo_to": "zone_sunderland",
+                "price": 14.50,
+                "link": "",
+                "duration": "7",
+                "day_equivalent": 7
+            },
+
+            {
+                "name": "Sunderland",
+                "geo_from": "zone_sunderland",
+                "geo_to": "zone_sunderland",
+                "price": 18.80,
+                "link": "",
+                "duration": "5",
+                "day_equivalent": 5
+            },
+
+            {
+                "name": "Sunderland",
+                "geo_from": "zone_sunderland",
+                "geo_to": "zone_sunderland",
+                "price": 32.90,
+                "link": "",
+                "duration": "10",
+                "day_equivalent": 10
+            },
+
+            {
+                "name": "Sunderland",
+                "geo_from": "zone_sunderland",
+                "geo_to": "zone_sunderland",
+                "price": 81.30,
+                "link": "",
+                "duration": "28",
+                "day_equivalent": 28
+            },
+            
+            {
+                "name": "Tyne & Wear",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 6.00,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            }, 
+
+            {
+                "name": "Tyne & Wear",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 21.00,
+                "link": "",
+                "duration": "7",
+                "day_equivalent": 7
+            },
+            
+            {
+                "name": "Tyne & Wear",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 22.80,
+                "link": "",
+                "duration": "5",
+                "day_equivalent": 5
+            },
+
+            {
+                "name": "Tyne & Wear",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 39.90,
+                "link": "",
+                "duration": "10",
+                "day_equivalent": 10
+            },
+
+            {
+                "name": "Tyne & Wear",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 81.30,
+                "link": "",
+                "duration": "28",
+                "day_equivalent": 28
+            },
+
+            {
+                "name": "Tyne & Wear under 21s",
+                "geo_from": "zone_tyne and wear",
+                "geo_to": "zone_tyne and wear",
+                "price": 3.00,
+                "link": "",
+                "duration": "1",
+                "day_equivalent": 1
+            }
+        ]
+    }
+]
