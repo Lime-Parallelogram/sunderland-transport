@@ -1,11 +1,17 @@
-<h2>Possible Tickets</h2>
-<div class="option_container">
+<h2 class="text-center text-2xl font-bold">Possible Tickets</h2>
+<div class="option_container w-1/2 mx-auto">
     @for (ticket of this.ticketList?.single; track ticket) {
-        <div class="individual_ticket">
+        <div class="individual_ticket flex flex-col justify-center items-center bg-white bg-opacity-30 backdrop-blur-md shadow-lg border-2 border-gray-300 rounded-lg p-4 m-3">
             @for (variant of ticket.variants; track variant) {
-                <div>{{ticket.title}} | {{ variant.name }}</div>
-                <div>{{ variant.duration }}: £{{ variant.price }}</div>
-                <div>Single trips equivalent: {{ calculateBreakEven(variant.price, variant.day_equivalent) }}</div>
+                <div class="flex flex-col justify-center items-center bg-white shadow-lg border-2 border-gray-300 rounded-lg p-4 m-3">
+                    <div>
+                        <p class="font-bold text-xl">{{ticket.title}} |  {{ variant.name }} </p>
+                       </div>
+                    <div>Single trips equivalent: {{ calculateBreakEven(variant.price, variant.day_equivalent) }}</div>
+
+                <div class=" ml-[65px]"> <span class="text-red-300">£{{ variant.price }}</span></div>
+                </div>
+                
             }
         </div>
     }
