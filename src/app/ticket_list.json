@@ -1,0 +1,27 @@
+[
+    {
+        "operator": "Go North East",
+        "ticket_offerings": [
+            {
+                "name": "Sunderland central",
+                "geo_from": "zone_central",
+                "geo_to": "zone_central",
+                "price": 5,
+                "link": "",
+                "duration": "1 Day",
+                "day_equivalent": 1
+            },
+
+            {
+                "name": "Sunderland central",
+                "geo_from": "zone_central",
+                "geo_to": "zone_central",
+                "price": 16.50,
+                "link": "",
+                "duration": "7 Day",
+                "day_equivalent": 7
+            }
+        ]
+    }
+    
+]
