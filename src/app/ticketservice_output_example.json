@@ -1,0 +1,15 @@
+{
+    "single": [
+        {
+            "title": "Network One",
+            "variants": [
+                {
+                    "name": "network one - 1 week pass",
+                    "price": 17.99,
+                    "duration": "1 Week",
+                    "day_equivalent": 7
+                }
+            ]
+        }
+    ]
+}
