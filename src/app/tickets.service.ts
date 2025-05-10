@@ -36,7 +36,29 @@ export class TicketsService {
     this.inputValues = inputs;
   }
 
-  getOutput(): ServiceOutput | undefined {
-    return
+  getOutput(): ServiceOutput {
+    return {
+      single: [
+        {
+          title: "Arriva Ticket",
+          variants: [
+            {
+              price: 2.5,
+              name: "Contactless Single",
+              link: "",
+              duration: "Single",
+              day_equivalent: 0,
+            },
+            {
+              price: 17.90,
+              name: "Weekly FlexPass",
+              link: "https://www.arrivabus.co.uk/buy-tickets/region/north-east/zone/ane074",
+              duration: "Week",
+              day_equivalent: 7
+            }
+          ]
+        }
+      ]
+    }
   }
 }

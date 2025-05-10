@@ -1,0 +1,13 @@
+<h2>Possible Tickets</h2>
+<div class="option_container">
+    @for (ticket of this.ticketList?.single; track ticket) {
+        <div class="individual_ticket">
+            @for (variant of ticket.variants; track variant) {
+                <div>{{ticket.title}} | {{ variant.name }}</div>
+                <div>{{ variant.duration }}: £{{ variant.price }}</div>
+                <div>Single trips equivalent: {{ calculateBreakEven(variant.price, variant.day_equivalent) }}</div>
+            }
+        </div>
+    }
+    
+</div>
